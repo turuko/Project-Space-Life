@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032b9070c6c645928e6e94343fc915b1, type: 3}
+  m_Name: Faction 5
+  m_EditorClassIdentifier: 
+  name: Faction 5
+  id: eebf6de1-6a04-4034-9e0a-ea590d82ca48
+  SettlementIds:
+    items:
+    - 20770b06-572b-4b5c-985e-3c7ce8549ace
+  CapitalId: 20770b06-572b-4b5c-985e-3c7ce8549ace
+  AllCharacterIds:
+    items: []
+  CommanderIds:
+    items: []
+  LeaderId: 
+  bannerId: 855199f0-efc9-49c7-b74e-2d3bff996e09
+  CoreSpeciesIds:
+    items:
+    - 04879d15-0a7b-4b87-8b3f-28ae09191e81
+    - 50e4c43e-92d3-4150-97eb-1ea260cd4d0b
+    - 87e78d9c-959d-40a8-80ff-5afbbc126924

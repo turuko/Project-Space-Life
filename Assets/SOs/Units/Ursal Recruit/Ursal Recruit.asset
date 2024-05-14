@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f28405ca52d4264a209125910158311, type: 3}
+  m_Name: Ursal Recruit
+  m_EditorClassIdentifier: 
+  id: 8bfd4de3-85a6-403d-92ec-26392b91ebd7
+  name: Ursal Recruit
+  speciesId: d41ee95a-624f-486e-ab82-95a4fa0bceb8
+  upgradesFrom: 00000000-0000-0000-0000-000000000000
+  upgradesTo:
+  - 
+  - 
+  recruitmentCost: 10
+  foodCost: 0.1
+  goldCost: 0.1
+  maxHealth: 50
+  equipment: {fileID: 11400000, guid: 25e2c7175e7e6ed4d80157fa275d9618, type: 2}
+  combatStats: {fileID: 11400000, guid: 7c7d97b5b278c1d4a8d9400d7eb82646, type: 2}

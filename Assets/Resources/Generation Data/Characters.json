@@ -1,0 +1,122 @@
+﻿[
+  {
+    "Name" : "Vader",
+    "Stats" : 
+    {
+      "stats" :
+      {
+        "Leadership" :     4.0,
+        "Trade" :          4.0,
+        "Ground Tactics" : 4.0,
+        "Space Tactics" :  4.0,
+        "Health" :         4.0,
+        "Psychic Power" :  4.0
+      }
+    },
+    "CombatStats":
+    {
+      "stats" :
+      {
+        "Rifle": 4.0,
+        "Pistol": 4.0,
+        "One Hand": 4.0,
+        "Two Hand": 4.0,
+        "Heavy Gun": 4.0,
+        "Pilot": 4.0,
+        "Ship Gun": 4.0
+      }
+    },
+    "FoodCost" : 0.4,
+    "GoldCost" : 0.4
+  },
+  {
+    "Name" : "Luke",
+    "Stats" :
+    {
+      "stats" :
+      {
+        "Leadership" :     5.0,
+        "Trade" :          4.0,
+        "Ground Tactics" : 4.0,
+        "Space Tactics" :  4.0,
+        "Health" :         4.0,
+        "Psychic Power" :  4.0
+      }
+    },
+    "CombatStats":
+    {
+      "stats" :
+      {
+        "Rifle": 4.0,
+        "Pistol": 4.0,
+        "One Hand": 4.0,
+        "Two Hand": 4.0,
+        "Heavy Gun": 4.0,
+        "Pilot": 4.0,
+        "Ship Gun": 4.0
+      }
+    },
+    "FoodCost" : 0.5,
+    "GoldCost" : 0.5
+  },
+  {
+    "Name" : "Mandalore",
+    "Stats" :
+    {
+      "stats" :
+      {
+        "Leadership" :     6.0,
+        "Trade" :          4.0,
+        "Ground Tactics" : 4.0,
+        "Space Tactics" :  4.0,
+        "Health" :         4.0,
+        "Psychic Power" :  4.0
+      }
+    },
+    "CombatStats":
+    {
+      "stats" :
+      {
+        "Rifle": 4.0,
+        "Pistol": 4.0,
+        "One Hand": 4.0,
+        "Two Hand": 4.0,
+        "Heavy Gun": 4.0,
+        "Pilot": 4.0,
+        "Ship Gun": 4.0
+      }
+    },
+    "FoodCost" : 0.5,
+    "GoldCost" : 0.5
+  },
+  {
+    "Name" : "Ahsoka",
+    "Stats" :
+    {
+      "stats" :
+      {
+        "Leadership" :     7.0,
+        "Trade" :          4.0,
+        "Ground Tactics" : 4.0,
+        "Space Tactics" :  4.0,
+        "Health" :         4.0,
+        "Psychic Power" :  4.0
+      }
+    },
+    "CombatStats":
+    {
+      "stats" :
+      {
+        "Rifle": 4.0,
+        "Pistol": 4.0,
+        "One Hand": 4.0,
+        "Two Hand": 4.0,
+        "Heavy Gun": 4.0,
+        "Pilot": 4.0,
+        "Ship Gun": 4.0
+      }
+    },
+    "FoodCost" : 0.5,
+    "GoldCost" : 0.5
+  }
+]

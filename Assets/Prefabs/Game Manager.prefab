@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &10911971328192707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10911971328192709}
+  - component: {fileID: 10911971328192706}
+  - component: {fileID: 3173579699023635060}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &10911971328192709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10911971328192707}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &10911971328192706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10911971328192707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3383ba00464b42bfb6020c9a5aadd35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battlePlayerPrefab: {fileID: 4602390838356210262, guid: ddd1a4a017b3ee34bbe8def604dc84ac, type: 3}
+  gameMenuIsOpen: 0
+  minStars: 0
+  maxStars: 0
+  seed: 0
+--- !u!114 &3173579699023635060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10911971328192707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: f2766e16012e4354b911054544619ce0, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnIncreaseGameSpeed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1f760332-995e-4a4d-bbde-51dc5c8b6926
+    m_ActionName: CampaignMapActions/IncreaseGameSpeed[/Keyboard/numpadPlus]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnDecreaseGameSpeed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 09d9ef9d-6c1b-4b84-818a-c6c258c445ee
+    m_ActionName: CampaignMapActions/DecreaseGameSpeed[/Keyboard/numpadMinus]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnFreeCamera
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 0296ffb9-c3f9-4651-9739-0fe410d72b86
+    m_ActionName: CampaignMapActions/FreeCamera[/Keyboard/u]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnPanCameraUp
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: e730b2f9-68a2-45f3-8305-80c2080199a3
+    m_ActionName: CampaignMapActions/PanCameraUp[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnPanCameraDown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 34ea1ef0-37f3-48c3-908b-4b8aa7dcea1b
+    m_ActionName: CampaignMapActions/PanCameraDown[/Keyboard/s]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnPanCameraLeft
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: fdd3ddfc-bcf4-4545-bc68-52dc9a6e8e31
+    m_ActionName: CampaignMapActions/PanCameraLeft[/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnPanCameraRight
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: d441e817-e05c-4e31-9fd0-ea70eb961b3e
+    m_ActionName: CampaignMapActions/PanCameraRight[/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnCameraZoomIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 6ce6ac65-c9ce-4955-9b50-176f9cc4b25b
+    m_ActionName: CampaignMapActions/ZoomCameraIn[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnCameraZoomOut
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7291a8b6-4271-4101-93dd-3b5f4eff8e58
+    m_ActionName: CampaignMapActions/ZoomCameraOut[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnRotateCameraLeft
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1885e243-770d-4a15-9475-5ed58a5dfa5a
+    m_ActionName: CampaignMapActions/RotateCameraLeft[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnRotateCameraRight
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: e76162a6-370e-4fab-93c7-ac9d42e0e7ea
+    m_ActionName: CampaignMapActions/RotateCameraRight[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 10911971328192706}
+        m_TargetAssemblyTypeName: Controller.GameManager, Assembly-CSharp
+        m_MethodName: OnEscape
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 0611e591-1724-4632-b3d8-3b789864380f
+    m_ActionName: CampaignMapActions/Escape[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a939c2fd-3dce-40ac-b9ca-802fc36d9bc0
+    m_ActionName: BattlePlayerActions/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: acc3ddd2-b6cf-43f5-b751-90da3bfb2b98
+    m_ActionName: BattlePlayerActions/PlayerMove[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6cca34ea-ae3e-40e1-97bd-874423ef801a
+    m_ActionName: BattlePlayerActions/Interact[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5bcdca0c-444a-4e0c-82ec-a5be0daaa83c
+    m_ActionName: BattlePlayerActions/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b99fc987-03fa-48bd-8dbb-2fe95a20ff16
+    m_ActionName: BattleMountActions/Thrust[/Keyboard/s,/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9553077a-69e7-4cb1-b707-78c2e5765526
+    m_ActionName: BattleMountActions/Strafe[/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fc580c4f-cdbf-4cd6-95cc-34469e922302
+    m_ActionName: BattleMountActions/UpDown[/Keyboard/ctrl,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b0291ea8-a835-4a1a-b2e1-112dd1eb113c
+    m_ActionName: BattleMountActions/Roll[/Keyboard/q,/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 099040b5-36a3-433e-822f-3985ebfc0b01
+    m_ActionName: BattleMountActions/PitchYaw[/Mouse/delta]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard & Mouse
+  m_DefaultActionMap: CampaignMapActions
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc3b2b3bf85499a846ddf946385de29, type: 3}
+  m_Name: Faction 1 Capital
+  m_EditorClassIdentifier: 
+  SettlementType: 10
+  Name: Faction 1 Capital
+  id: 9dd3b6b1-6580-4e10-8232-ea3bbcc0213f
+  RequiredSettlementSlots: 10
+  Prosperity: 0
+  planetId: 
+  factionId: 036667f2-37ca-4bbb-90ae-7a42403b2049

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Name" : "Coruscant",
+    "SettlementType": "PlanetCity",
+    "RequiredSettlementSlots": 10
+  },
+  {
+    "Name" : "Mandalore",
+    "SettlementType": "PlanetCity",
+    "RequiredSettlementSlots": 10
+  },
+  {
+    "Name" : "Yavin",
+    "SettlementType": "PlanetCity",
+    "RequiredSettlementSlots": 10
+  },
+  {
+    "Name" : "Ilum",
+    "SettlementType": "PlanetCity",
+    "RequiredSettlementSlots": 10
+  }
+]

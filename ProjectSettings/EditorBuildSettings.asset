@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu Scene.unity
+    guid: f7da32b372730a44cb6fc242d1e56804
+  - enabled: 1
+    path: Assets/Scenes/Character Creation Scene.unity
+    guid: 283d3440c78018f4e83c56de4eccd01d
+  - enabled: 1
+    path: Assets/Scenes/Galaxy Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/System Scene.unity
+    guid: 3596e883eeaa0e641beeed60f923470a
+  - enabled: 1
+    path: Assets/Scenes/Info Menus Scene.unity
+    guid: 5190766b0307dd5419b68605891fdb18
+  - enabled: 1
+    path: Assets/Scenes/System Battle Scene.unity
+    guid: 6c277b518c894d34f90d844452bf7daf
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 7b188eaa7261e1448a829d1696065ec3, type: 2}

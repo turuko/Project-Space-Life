@@ -1,0 +1,58 @@
+﻿[
+  {
+    "Name" : "Empire",
+    "SettlementNames" : ["Coruscant"],
+    "AllCharacterNames" : 
+    [
+      "Vader"
+    ],
+    "CommanderNames" :
+    [
+      "Vader"
+    ],
+    "LeaderName" : "Vader",
+    "Banner" : {}
+  },
+  {
+    "Name" : "The Mandalorians",
+    "SettlementNames" : ["Mandalore"],
+    "AllCharacterNames" :
+    [
+      "Mandalore"
+    ],
+    "CommanderNames" :
+    [
+      "Mandalore"
+    ],
+    "LeaderName" : "Mandalore",
+    "Banner" : {}
+  },
+  {
+    "Name" : "Jedi Outcasts",
+    "SettlementNames" : ["Ilum"],
+    "AllCharacterNames" :
+    [
+      "Ahsoka"
+    ],
+    "CommanderNames" :
+    [
+      "Ahsoka"
+    ],
+    "LeaderName" : "Ahsoka",
+    "Banner" : {}
+  },
+  {
+    "Name" : "Rebellion",
+    "SettlementNames" : ["Yavin"],
+    "AllCharacterNames" :
+    [
+      "Luke"
+    ],
+    "CommanderNames" :
+    [
+      "Luke"
+    ],
+    "LeaderName" : "Luke",
+    "Banner" : {}
+  }
+]

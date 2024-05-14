@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f28405ca52d4264a209125910158311, type: 3}
+  m_Name: Human Recruit
+  m_EditorClassIdentifier: 
+  id: 6799d87e-7d47-4b2e-9342-1585e2423bcb
+  name: Human Recruit
+  speciesId: 3201877f-4cac-4668-85bd-28e038957f56
+  upgradesFrom: 00000000-0000-0000-0000-000000000000
+  upgradesTo:
+  - 
+  - 
+  recruitmentCost: 10
+  foodCost: 0.1
+  goldCost: 0.1
+  maxHealth: 50
+  equipment: {fileID: 11400000, guid: e08fae8e3c30d2d48a5afddddb14250f, type: 2}
+  combatStats: {fileID: 11400000, guid: 3ca7eee442d8d334284bc56b660e7c3e, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4292094ad9504d90bff03f2c3b635b82, type: 3}
+  m_Name: Blaster rifle
+  m_EditorClassIdentifier: 
+  name: Blaster rifle
+  id: 6cb5ac24-4bb8-4c3b-acf1-dfe5c9b4f06e
+  weight: 3
+  itemSlot: 6
+  type: 0
+  damage: 10
+  attackSpeed: 0.2
+  range: 100
+  reloadTime: 2
+  magSize: 5
+  projectileSpeed: 100
+  projectilePrefab: {fileID: 7708632811430673384, guid: ba108c1d73c24d74a9e006c215f945c3, type: 3}

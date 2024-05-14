@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032b9070c6c645928e6e94343fc915b1, type: 3}
+  m_Name: Faction 3
+  m_EditorClassIdentifier: 
+  name: Faction 3
+  id: 4b287dba-0701-44b4-babf-074eb39857f7
+  SettlementIds:
+    items:
+    - 5727d942-4cb1-43f7-ae0c-fb9070d5f2d7
+  CapitalId: 5727d942-4cb1-43f7-ae0c-fb9070d5f2d7
+  AllCharacterIds:
+    items: []
+  CommanderIds:
+    items: []
+  LeaderId: 
+  bannerId: c9d8865c-d6dd-4dc2-ac97-a0527f33234f
+  CoreSpeciesIds:
+    items:
+    - d79210f8-c204-4dd9-bea9-a8fe675a6479
+    - 3201877f-4cac-4668-85bd-28e038957f56
+    - 50e4c43e-92d3-4150-97eb-1ea260cd4d0b
+    - 2a599446-23dd-4562-8805-84e014d85268
